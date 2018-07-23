@@ -3,7 +3,7 @@
     "rules": {
         "max-line-length": [
             true,
-            120
+            150
         ],
         "indent": [
             true,
@@ -11,10 +11,17 @@
         ],
         "ter-indent": [
             true,
-            4
+            4,
+            {
+                "SwitchCase": 1
+            }
         ],
         "trailing-comma": [
             false
+        ],
+        "ter-arrow-parens": [
+            true,
+            "always"
         ],
         "variable-name": [
             false
@@ -31,6 +38,7 @@
         "align": [
             false
         ],
+        "no-parameter-reassignment": false,
         "typedef": [
             true,
             "call-signature",
